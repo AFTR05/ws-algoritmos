@@ -7,9 +7,9 @@ var puntosObjetivo=30;
 function sumarPuntos(){      // esta funcion lo que se encarga es de sumar los puntos incrementandolos
  puntos++;         
  
- let ranNum= Math.round(Math.random()*500);
+ let ranNum= Math.round(Math.random()*500); //lo que se encarga esta linea de codigo es de aparecer un nuevo punto en una nueva posición
  let ranNum2= Math.round(Math.random()*500);
- document.getElementById("player").style.marginTop=ranNum+"px";
+ document.getElementById("player").style.marginTop=ranNum+"px";     //son las margenes 
  document.getElementById("player").style.marginLeft=ranNum+"px";
  if(puntos==30){              // si se llega a el 30 entonces que me muestre que gane 
      alert("ganaste");
